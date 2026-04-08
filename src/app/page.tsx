@@ -40,7 +40,6 @@ const ROADMAP = [
     border: "#6b728040",
     items: [
       { text: "Beautify agent — UI generation from prompts", done: false },
-      { text: "SmartPy contracts on Tezos L1 using our own Beautify skill", done: false },
     ],
   },
   {
