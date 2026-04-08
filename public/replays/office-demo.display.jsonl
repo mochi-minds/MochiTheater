@@ -1,0 +1,97 @@
+{"type":"project-created","agent":"lead","message":"MochiTheater office demo initialized","ts":"2026-04-07T10:00:00Z","data":{"name":"MochiOffice"},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"lead","message":"Lead enters the office","ts":"2026-04-07T10:00:01Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"mochi","message":"Mochi enters the office","ts":"2026-04-07T10:00:02Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"blueprint","message":"Blueprint enters the office","ts":"2026-04-07T10:00:03Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"forge","message":"Forge enters the office","ts":"2026-04-07T10:00:04Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"naga","message":"Naga enters the office","ts":"2026-04-07T10:00:05Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"link","message":"Link enters the office","ts":"2026-04-07T10:00:06Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"pixel","message":"Pixel enters the office","ts":"2026-04-07T10:00:07Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"sage","message":"Sage enters the office","ts":"2026-04-07T10:00:08Z","data":{},"project":"MochiOffice"}
+{"type":"agent-joined","agent":"rocket","message":"Rocket enters the office","ts":"2026-04-07T10:00:09Z","data":{},"project":"MochiOffice"}
+{"type":"phase-changed","agent":"lead","message":"Team meeting — everyone to the meeting table","ts":"2026-04-07T10:00:15Z","data":{"phase":"planning"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"lead","message":"Lead calls the team to the meeting table","ts":"2026-04-07T10:00:16Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"mochi","message":"Mochi heads to the meeting","ts":"2026-04-07T10:00:17Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"blueprint","message":"Blueprint heads to the meeting","ts":"2026-04-07T10:00:18Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"forge","message":"Forge heads to the meeting","ts":"2026-04-07T10:00:19Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"naga","message":"Naga heads to the meeting","ts":"2026-04-07T10:00:20Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"link","message":"Link heads to the meeting","ts":"2026-04-07T10:00:21Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"pixel","message":"Pixel heads to the meeting","ts":"2026-04-07T10:00:22Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"sage","message":"Sage heads to the meeting","ts":"2026-04-07T10:00:23Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"rocket","message":"Rocket heads to the meeting","ts":"2026-04-07T10:00:24Z","data":{"activity":"meeting"},"project":"MochiOffice"}
+{"type":"message","agent":"lead","message":"Alright team, new project — let's build something cool!","ts":"2026-04-07T10:00:30Z","data":{"from":"lead","to":"team","body":"Alright team, new project! We're building ChainPulse — a real-time dashboard for Etherlink. Let's go around the table."},"project":"MochiOffice"}
+{"type":"message","agent":"mochi","message":"Mochi has some ideas","ts":"2026-04-07T10:00:40Z","data":{"from":"mochi","to":"lead","body":"I've been brainstorming — what about a watchlist feature? Users track specific addresses and get AI summaries of what happened."},"project":"MochiOffice"}
+{"type":"message","agent":"blueprint","message":"Blueprint thinks about architecture","ts":"2026-04-07T10:00:50Z","data":{"from":"blueprint","to":"lead","body":"Love it. I'm thinking one simple registry contract on Etherlink, three API routes, and a clean dashboard UI. I'll spec it out."},"project":"MochiOffice"}
+{"type":"message","agent":"forge","message":"Forge is ready for contracts","ts":"2026-04-07T10:01:00Z","data":{"from":"forge","to":"lead","body":"Sounds straightforward. I can have the WatchlistRegistry contract and tests done quickly. Solidity ^0.8.24, Foundry, no OpenZeppelin needed."},"project":"MochiOffice"}
+{"type":"message","agent":"sage","message":"Sage will review everything","ts":"2026-04-07T10:01:10Z","data":{"from":"sage","to":"lead","body":"I'll review contracts and frontend once they're ready. Security first!"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Create project brief","ts":"2026-04-07T10:01:20Z","data":{"taskId":"1","subject":"Write project brief"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Design technical spec","ts":"2026-04-07T10:01:21Z","data":{"taskId":"2","subject":"Design technical spec"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Write Solidity contracts","ts":"2026-04-07T10:01:22Z","data":{"taskId":"3","subject":"Write WatchlistRegistry contract"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Write SmartPy contracts","ts":"2026-04-07T10:01:23Z","data":{"taskId":"4","subject":"Write Tezos L1 registry contract"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Build API routes","ts":"2026-04-07T10:01:24Z","data":{"taskId":"5","subject":"Build API routes and helpers"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Build frontend","ts":"2026-04-07T10:01:25Z","data":{"taskId":"6","subject":"Build dashboard frontend"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Review all code","ts":"2026-04-07T10:01:26Z","data":{"taskId":"7","subject":"Review all code and run builds"},"project":"MochiOffice"}
+{"type":"task-created","agent":"lead","message":"Deploy contracts","ts":"2026-04-07T10:01:27Z","data":{"taskId":"8","subject":"Deploy to Etherlink Shadownet"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"lead","message":"Lead finishes the kickoff","ts":"2026-04-07T10:01:35Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"sage","message":"Sage waits for code to review","ts":"2026-04-07T10:01:36Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"rocket","message":"Rocket waits for deploy time","ts":"2026-04-07T10:01:37Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"forge","message":"Forge waits for spec","ts":"2026-04-07T10:01:38Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"naga","message":"Naga waits for spec","ts":"2026-04-07T10:01:39Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"link","message":"Link waits for spec","ts":"2026-04-07T10:01:40Z","data":{},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"pixel","message":"Pixel waits for spec","ts":"2026-04-07T10:01:41Z","data":{},"project":"MochiOffice"}
+{"type":"task-started","agent":"mochi","message":"Mochi starts writing the brief","ts":"2026-04-07T10:01:45Z","data":{"taskId":"1","subject":"Write project brief"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"mochi","message":"Mochi is writing the brief","ts":"2026-04-07T10:01:45Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"message","agent":"forge","message":"Forge grabs coffee while waiting","ts":"2026-04-07T10:02:00Z","data":{"from":"forge","to":"naga","body":"Hey Naga, want a coffee? We're waiting for the spec anyway."},"project":"MochiOffice"}
+{"type":"message","agent":"naga","message":"Naga joins for coffee","ts":"2026-04-07T10:02:10Z","data":{"from":"naga","to":"forge","body":"Sure! Let's compare Solidity vs SmartPy gas models while we wait."},"project":"MochiOffice"}
+{"type":"task-completed","agent":"mochi","message":"Brief is done!","ts":"2026-04-07T10:03:00Z","data":{"taskId":"1","subject":"Write project brief"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"mochi","message":"Mochi finished the brief","ts":"2026-04-07T10:03:01Z","data":{},"project":"MochiOffice"}
+{"type":"message","agent":"mochi","message":"Brief is ready for Blueprint","ts":"2026-04-07T10:03:05Z","data":{"from":"mochi","to":"blueprint","body":"Brief is done! It's at docs/brief.md. The core idea: watchlist-based dashboard with AI summaries. Your turn!"},"project":"MochiOffice"}
+{"type":"phase-changed","agent":"blueprint","message":"Moving to design phase","ts":"2026-04-07T10:03:10Z","data":{"phase":"design"},"project":"MochiOffice"}
+{"type":"task-started","agent":"blueprint","message":"Blueprint designs the spec","ts":"2026-04-07T10:03:15Z","data":{"taskId":"2","subject":"Design technical spec"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"blueprint","message":"Blueprint is designing","ts":"2026-04-07T10:03:15Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"message","agent":"pixel","message":"Pixel sketches while waiting","ts":"2026-04-07T10:03:30Z","data":{"from":"pixel","to":"link","body":"While Blueprint works on the spec, want to brainstorm the dashboard layout? I'm thinking a dark theme with live transaction feed."},"project":"MochiOffice"}
+{"type":"message","agent":"link","message":"Link discusses API ideas","ts":"2026-04-07T10:03:40Z","data":{"from":"link","to":"pixel","body":"Yes! I'll need three endpoints: feed, network stats, and an AI summarize route. Let's sync once the spec lands."},"project":"MochiOffice"}
+{"type":"task-completed","agent":"blueprint","message":"Spec is complete","ts":"2026-04-07T10:04:30Z","data":{"taskId":"2","subject":"Design technical spec"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"blueprint","message":"Blueprint is done with spec","ts":"2026-04-07T10:04:31Z","data":{},"project":"MochiOffice"}
+{"type":"message","agent":"blueprint","message":"Spec is ready — let's build!","ts":"2026-04-07T10:04:35Z","data":{"from":"blueprint","to":"lead","body":"Spec is done at docs/spec.md. WatchlistRegistry contract, three API routes, dashboard with live feed. Forge, Naga, Link, Pixel — you're up!"},"project":"MochiOffice"}
+{"type":"phase-changed","agent":"lead","message":"Implementation phase begins","ts":"2026-04-07T10:04:40Z","data":{"phase":"implementation"},"project":"MochiOffice"}
+{"type":"task-started","agent":"forge","message":"Forge starts on contracts","ts":"2026-04-07T10:04:45Z","data":{"taskId":"3","subject":"Write WatchlistRegistry contract"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"forge","message":"Forge is coding Solidity","ts":"2026-04-07T10:04:45Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"task-started","agent":"naga","message":"Naga starts on Tezos contracts","ts":"2026-04-07T10:04:50Z","data":{"taskId":"4","subject":"Write Tezos L1 registry contract"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"naga","message":"Naga is writing SmartPy","ts":"2026-04-07T10:04:50Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"task-started","agent":"link","message":"Link starts on API routes","ts":"2026-04-07T10:04:55Z","data":{"taskId":"5","subject":"Build API routes and helpers"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"link","message":"Link is building the API","ts":"2026-04-07T10:04:55Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"task-started","agent":"pixel","message":"Pixel starts on frontend","ts":"2026-04-07T10:05:00Z","data":{"taskId":"6","subject":"Build dashboard frontend"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"pixel","message":"Pixel is building UI","ts":"2026-04-07T10:05:00Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"message","agent":"sage","message":"Sage reviews the spec","ts":"2026-04-07T10:05:15Z","data":{"from":"sage","to":"blueprint","body":"Nice spec! One note — the contract should enforce a max watchlist size to prevent gas griefing. Did you include that?"},"project":"MochiOffice"}
+{"type":"message","agent":"blueprint","message":"Blueprint confirms","ts":"2026-04-07T10:05:25Z","data":{"from":"blueprint","to":"sage","body":"Yep, max 10 addresses per user. It's in the spec under storage layout."},"project":"MochiOffice"}
+{"type":"message","agent":"forge","message":"Forge has a question","ts":"2026-04-07T10:06:00Z","data":{"from":"forge","to":"blueprint","body":"Should removeAddress use swap-and-pop or just mark as deleted? Swap-and-pop is cheaper but changes ordering."},"project":"MochiOffice"}
+{"type":"message","agent":"blueprint","message":"Blueprint answers","ts":"2026-04-07T10:06:10Z","data":{"from":"blueprint","to":"forge","body":"Swap-and-pop. Ordering doesn't matter for a watchlist, and the gas savings are worth it."},"project":"MochiOffice"}
+{"type":"task-completed","agent":"forge","message":"Forge finishes contracts","ts":"2026-04-07T10:07:00Z","data":{"taskId":"3","subject":"Write WatchlistRegistry contract"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"forge","message":"Forge is done with contracts","ts":"2026-04-07T10:07:01Z","data":{},"project":"MochiOffice"}
+{"type":"message","agent":"forge","message":"Contracts ready for review","ts":"2026-04-07T10:07:05Z","data":{"from":"forge","to":"sage","body":"WatchlistRegistry is done with full test suite — 100% coverage. Ready for your review, Sage!"},"project":"MochiOffice"}
+{"type":"task-completed","agent":"naga","message":"Naga finishes Tezos contracts","ts":"2026-04-07T10:07:30Z","data":{"taskId":"4","subject":"Write Tezos L1 registry contract"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"naga","message":"Naga is done","ts":"2026-04-07T10:07:31Z","data":{},"project":"MochiOffice"}
+{"type":"phase-changed","agent":"lead","message":"Moving to review phase","ts":"2026-04-07T10:07:35Z","data":{"phase":"review"},"project":"MochiOffice"}
+{"type":"task-started","agent":"sage","message":"Sage starts reviewing","ts":"2026-04-07T10:07:40Z","data":{"taskId":"7","subject":"Review all code and run builds"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"sage","message":"Sage is reviewing code","ts":"2026-04-07T10:07:40Z","data":{"activity":"reviewing"},"project":"MochiOffice"}
+{"type":"issue-found","agent":"sage","message":"Sage found an issue in the contract","ts":"2026-04-07T10:08:00Z","data":{"description":"Missing zero-address check in addAddress() — users could accidentally watch address(0)"},"project":"MochiOffice"}
+{"type":"message","agent":"sage","message":"Sage reports the issue","ts":"2026-04-07T10:08:05Z","data":{"from":"sage","to":"forge","body":"Found a bug: addAddress() doesn't check for address(0). Users could add the zero address to their watchlist. Easy fix — add a require statement."},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"forge","message":"Forge fixes the issue","ts":"2026-04-07T10:08:15Z","data":{"activity":"writing"},"project":"MochiOffice"}
+{"type":"fix-applied","agent":"forge","message":"Forge fixed the zero-address check","ts":"2026-04-07T10:08:30Z","data":{"description":"Added require(addr != address(0)) to addAddress()"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"forge","message":"Forge is done with the fix","ts":"2026-04-07T10:08:31Z","data":{},"project":"MochiOffice"}
+{"type":"task-completed","agent":"link","message":"Link finishes API routes","ts":"2026-04-07T10:08:45Z","data":{"taskId":"5","subject":"Build API routes and helpers"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"link","message":"Link is done","ts":"2026-04-07T10:08:46Z","data":{},"project":"MochiOffice"}
+{"type":"task-completed","agent":"pixel","message":"Pixel finishes the frontend","ts":"2026-04-07T10:09:00Z","data":{"taskId":"6","subject":"Build dashboard frontend"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"pixel","message":"Pixel is done","ts":"2026-04-07T10:09:01Z","data":{},"project":"MochiOffice"}
+{"type":"task-completed","agent":"sage","message":"Sage finishes review","ts":"2026-04-07T10:09:30Z","data":{"taskId":"7","subject":"Review all code and run builds"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"sage","message":"Sage approves the build","ts":"2026-04-07T10:09:31Z","data":{},"project":"MochiOffice"}
+{"type":"message","agent":"sage","message":"All clear — ship it!","ts":"2026-04-07T10:09:35Z","data":{"from":"sage","to":"lead","body":"All code reviewed, builds pass, tests pass. One issue found and fixed. Ready to deploy!"},"project":"MochiOffice"}
+{"type":"phase-changed","agent":"lead","message":"Deployment phase","ts":"2026-04-07T10:09:40Z","data":{"phase":"deployment"},"project":"MochiOffice"}
+{"type":"task-started","agent":"rocket","message":"Rocket deploys","ts":"2026-04-07T10:09:45Z","data":{"taskId":"8","subject":"Deploy to Etherlink Shadownet"},"project":"MochiOffice"}
+{"type":"agent-busy","agent":"rocket","message":"Rocket is deploying","ts":"2026-04-07T10:09:45Z","data":{"activity":"deploying"},"project":"MochiOffice"}
+{"type":"message","agent":"rocket","message":"Deploying contracts...","ts":"2026-04-07T10:10:00Z","data":{"from":"rocket","to":"lead","body":"Deploying WatchlistRegistry to Etherlink Shadownet... Compiling with forge build..."},"project":"MochiOffice"}
+{"type":"task-completed","agent":"rocket","message":"Rocket finishes deployment","ts":"2026-04-07T10:10:30Z","data":{"taskId":"8","subject":"Deploy to Etherlink Shadownet"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"rocket","message":"Rocket is done","ts":"2026-04-07T10:10:31Z","data":{},"project":"MochiOffice"}
+{"type":"message","agent":"rocket","message":"Deployed and verified!","ts":"2026-04-07T10:10:35Z","data":{"from":"rocket","to":"lead","body":"Contract deployed and verified on Etherlink Shadownet! Explorer link updated in .env.example. We're live!"},"project":"MochiOffice"}
+{"type":"message","agent":"lead","message":"Great work team!","ts":"2026-04-07T10:10:45Z","data":{"from":"lead","to":"team","body":"Amazing work everyone! ChainPulse is live on Etherlink Shadownet. Let's celebrate!"},"project":"MochiOffice"}
+{"type":"agent-idle","agent":"lead","message":"Lead wraps up","ts":"2026-04-07T10:10:50Z","data":{},"project":"MochiOffice"}
